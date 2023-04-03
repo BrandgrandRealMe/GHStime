@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dangrek&family=Exo:wght@500;700&family=Gruppo&family=Jura:wght@600&family=K2D&family=Red+Hat+Text:wght@500&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+@-webkit-keyframes moveDown { 0% {top: 0;}
+100%{top:367px; }
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+i {
+font-size: 0.73em;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+
+
+p.title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 60px;
+}
+
+.titleImg {
+    height: 50px;
+    margin: 20px 20px 0 20px;
+}
+
+p.center {
+    text-align: center;
+}
+
+#content {
+    margin: 0;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+#clock {
+    background-color: black;
+    text-align: center;
+    font-size: 10vh;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+      position: sticky;
+}
+
+#centerbox {
+    z-index: 1;
+    position: relative;
+    font-weight: 400;
+
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Roboto Flex', sans-serif;
+    width: 100%;
+}
+#weekend {
+visibility: hidden;
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  font-size: 2.5vh;
+  color: red;
+}
+.hide {
+  visibility: hidden;
+}
+
+.center {
+
+    z-index: 1;
+    position: fixed;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Flex', sans-serif;
+    width: 100%;  
+    -webkit-animation-name: moveDown;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+}
+
+#date {
+    background-color: black;
+    text-align: center;
+    font-size: 3.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+#schedTitle {
+    background-color: black;
+    text-align: center;
+    font-variant: normal;
+    font-size: 4.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+#studentMessage {
+    background-color: black;
+    color: silver;
+    text-align: center;
+    font-variant: normal;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#message {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #CA1D27;
+    text-align: center;
+    font-size: 5vh;
+    border: solid;
+    font-weight: 500;
+
+}
+
+#center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#next-message,
+#plus-next-message {
+
+    background-color: black;
+    margin: .5;
+    padding: 0;
+    color: silver;
+    text-align: center;
+    font-size: 4vh;
+    border: solid;
+}
+#cd {
+
+    background-color: black;
+    margin: .5;
+    padding: 0;
+    color: silver;
+    text-align: center;
+    font-size: 4vh;
+    border: solid;
+}
+#cdcd {
+      font-size: 1.5em;
+}
+
+#schedulebox {
+    width: 80vw;
+
+    float: center;
+    text-align: center;
+    margin: 0 0 1% 10%;
+    padding: 0;
+    font-size: 1.5vh;
+}
+
+#message {
+    font-size: 5vh;
+}
+
+#countdown {
+    font-size: 3.5vh;
+    color: green;
+    font-weight: 200;
+
+}
+#battery-status {
+  font-weight: 200;
+  font-size: 2vh;
+  margin-left: 86vw;
+  margin-top: 86vh;
+  position: fixed;
+  z-index: 99998;
+  height: 1.5em;
+}
+#w {
+  font-weight: 200;
+  font-size: 2vh;
+  margin-left: 7vw;
+  margin-top: 86vh;
+  position: fixed;
+  z-index: 99999;
+  display: block;
+  text-align: center;
+  height: 1.5em;
+
+}
+#temp {
+   display: inline-block;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 2em;
+}
+#con {
+   display: inline-block;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 2em;
+}
+.wicon {
+  height: 2em;
+  vertical-align: middle;
+  padding-left: .02vw;
+  padding-right: .01vw;
+  display: inline-block;
+}
+.high {
+color: green;
+}
+.mid {
+color: orange;
+}
+.low {
+color: red;
+}

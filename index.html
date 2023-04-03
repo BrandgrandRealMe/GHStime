@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>ERROR: Please enable Javascript for this website. </title>
+  <link rel="icon" href="src/favicon.svg" type="image/svg+xml">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://raw.githubusercontent.com/andrewplummer/Sugar/2.0.4/dist/sugar.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="src/w.js"></script>
+  <script src="src/db.js"></script>
+  <script src="index.js"></script>
+  <script src="src/tinycon.js"></script>
+</head>
+
+<body onload="init()">
+
+
+  <noscript>
+    <div class="error-msg">
+      <i class='small material-icons'>error_outline</i> ERROR: Please enable Javascript for this website.
+    </div>
+  </noscript>
+
+  <div id="wrapper">
+
+    <br>
+
+    <div id="content">
+      <p id="battery-status"></p>
+      <div id="w">
+      
+        <p id="temp"></p>
+        <img id="wicon" class="hide" src="" alt="Weather icon">
+        <p id="con"></p>
+      </div>
+      <div id="clockbox">
+        <p id="clock"></p>
+        <p id="date"></p>
+        <p id="weekend">It's the WEEKEND! Enjoy!</p>
+      </div>
+      <div id="centerbox">
+        <p id="schedTitle">Bell</p>
+
+        <div id="schedulebox">
+
+          <p id="message"></p>
+          <p id="countdown"></p>
+          <br />
+          <p id="next-message"></p>
+          <br />
+          <p id="plus-next-message"></p>
+          <br />
+          <p id="cd">
+            <a id="cdtitle"></a>
+            <br>
+            <a id="cdcd"></a>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
