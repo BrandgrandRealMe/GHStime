@@ -90,24 +90,27 @@ async function battgetter() {
 
     function updateBatteryStatus(level) {
        if (level <= "100" && level >= "50") {
+         document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
         document.getElementById("battery-status").classList.add("high");
         document.getElementById("battery-status").classList.remove("mid");
         document.getElementById("battery-status").classList.remove("low");
 
       } else if (level <= "49" && level >= "20") {
+         document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_4_bar</i> " + Math.floor(level) + "%";
         document.getElementById("battery-status").classList.remove("high");
         document.getElementById("battery-status").classList.add("mid");
         document.getElementById("battery-status").classList.remove("low");
 
 
       } else if (level <= "19") {
-
+document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_0_bar</i> " + Math.floor(level) + "%";
         document.getElementById("battery-status").classList.remove("high");
         document.getElementById("battery-status").classList.remove("mid");
         document.getElementById("battery-status").classList.add("low");
+         
 
       }
-      document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
+      
     }
   });
   setInterval(() => {
@@ -121,24 +124,26 @@ async function battgetter() {
       function updateBatteryStatus(level) {
 
         if (level <= "100" && level >= "50") {
-          document.getElementById("battery-status").classList.add("high");
-          document.getElementById("battery-status").classList.remove("mid");
-          document.getElementById("battery-status").classList.remove("low");
+         document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
+        document.getElementById("battery-status").classList.add("high");
+        document.getElementById("battery-status").classList.remove("mid");
+        document.getElementById("battery-status").classList.remove("low");
 
-        } else if (level <= "49" && level >= "20") {
-          document.getElementById("battery-status").classList.remove("high");
-          document.getElementById("battery-status").classList.add("mid");
-          document.getElementById("battery-status").classList.remove("low");
+      } else if (level <= "49" && level >= "20") {
+         document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_4_bar</i> " + Math.floor(level) + "%";
+        document.getElementById("battery-status").classList.remove("high");
+        document.getElementById("battery-status").classList.add("mid");
+        document.getElementById("battery-status").classList.remove("low");
 
 
-        } else if (level <= "19") {
+      } else if (level <= "19") {
+document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_0_bar</i> " + Math.floor(level) + "%";
+        document.getElementById("battery-status").classList.remove("high");
+        document.getElementById("battery-status").classList.remove("mid");
+        document.getElementById("battery-status").classList.add("low");
+         
 
-          document.getElementById("battery-status").classList.remove("high");
-          document.getElementById("battery-status").classList.remove("mid");
-          document.getElementById("battery-status").classList.add("low");
-
-        }
-        document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
+      }
       }
     });
     console.log("battery % Updated ICON")
