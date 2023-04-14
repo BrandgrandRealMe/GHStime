@@ -255,3 +255,12 @@ color: orange;
 .low {
 color: red;
 }
+.high i{
+color: green;
+}
+.mid i{
+color: orange;
+}
+.low i{
+color: red;
+}
