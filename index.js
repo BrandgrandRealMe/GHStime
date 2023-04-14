@@ -88,8 +88,9 @@ async function battgetter() {
     });
 
     function updateBatteryStatus(level) {
-
-      if (level <= "100" && level >= "50") {
+      if (dischargingTime == "Infinity") {
+        return
+      } else if (level <= "100" && level >= "50") {
         document.getElementById("battery-status").classList.add("high");
         document.getElementById("battery-status").classList.remove("mid");
         document.getElementById("battery-status").classList.remove("low");
