@@ -107,7 +107,7 @@ async function battgetter() {
         document.getElementById("battery-status").classList.add("low");
 
       }
-      document.getElementById("battery-status").innerHTML = level + "%";
+      document.getElementById("battery-status").innerHTML = Math.floor(level) + "%";
     }
   });
   setInterval(() => {
