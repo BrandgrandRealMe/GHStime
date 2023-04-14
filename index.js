@@ -608,7 +608,7 @@ function bellSchedule() { // now we get to the good stuff
     document.getElementById("weekend").style.visibility = "hidden";
     document.getElementById('clockbox').classList.remove('center');
     document.getElementById("centerbox").classList.remove('hide');
-  } else if (countDown > 60) {
+  } else if (countDown >= 60) {
     var title = Math.floor(countDown / 60) + " hour(s) " + countDown % 60 + " minutes";
     document.getElementById("countdown")
       .innerHTML = "<span style='color: silver'>" + Math.floor(countDown / 60) + " hour(s) " + countDown % 60 + " minutes </style>";
