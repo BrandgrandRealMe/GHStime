@@ -80,16 +80,13 @@ async function weathergetter() {
 
 }
 async function battgetter() {
-  if (battery.dischargingTime == "Infinity") {
+  
+  navigator.getBattery().then(function(battery) {
+    if (battery.dischargingTime == "Infinity") {
         return
       }
-  navigator.getBattery().then(function(battery) {
     updateBatteryStatus(battery.level * 100);
     console.log(battery)
-    battery.addEventListener('levelchange', function() {
-      console.log("Batt changed")
-      updateBatteryStatus(battery.level * 100);
-    });
 
     function updateBatteryStatus(level) {
        if (level <= "100" && level >= "50") {
