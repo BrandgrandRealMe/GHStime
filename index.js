@@ -82,9 +82,9 @@ async function weathergetter() {
 async function battgetter() {
   
   navigator.getBattery().then(function(battery) {
-    if (battery.dischargingTime == "Infinity") {
-        return
-      }
+    // if (battery.dischargingTime == "Infinity") {
+    //     return
+    //   }
     updateBatteryStatus(battery.level * 100);
     console.log(battery)
 
