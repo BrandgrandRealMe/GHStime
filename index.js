@@ -82,7 +82,7 @@ async function weathergetter() {
 async function battgetter() {
   navigator.getBattery().then(function(battery) {
     updateBatteryStatus(battery.level * 100);
-
+    console.log(battery)
     battery.addEventListener('levelchange', function() {
       updateBatteryStatus(battery.level * 100);
     });
