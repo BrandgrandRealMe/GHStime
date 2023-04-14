@@ -582,7 +582,7 @@ function bellSchedule() { // now we get to the good stuff
     document.getElementById("weekend").style.visibility = "visible";
     document.getElementById('clockbox').classList.add('center');
     document.getElementById("centerbox").classList.add('hide');
-  } else if (countDown < 5) {
+  } else if (countDown <= 5) {
 
     countDown = countDown - 1;
     var title = "Time left: " + countDown + ":" + (countDownSeconds < 10 ? '0' : '') + countDownSeconds
