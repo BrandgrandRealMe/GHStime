@@ -107,7 +107,7 @@ async function battgetter() {
         document.getElementById("battery-status").classList.add("low");
 
       }
-      document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery</i> " + Math.floor(level) + "%";
+      document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
     }
   });
   setInterval(() => {
@@ -138,7 +138,7 @@ async function battgetter() {
           document.getElementById("battery-status").classList.add("low");
 
         }
-        document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery</i> " + Math.floor(level) + "%";
+        document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
       }
     });
     console.log("battery % Updated ICON")
