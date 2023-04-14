@@ -138,7 +138,7 @@ async function battgetter() {
           document.getElementById("battery-status").classList.add("low");
 
         }
-        document.getElementById("battery-status").innerHTML = level + "%";
+        document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery</i> " + level + "%";
       }
     });
     console.log("battery % Updated")
