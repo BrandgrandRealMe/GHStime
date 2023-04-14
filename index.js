@@ -80,17 +80,19 @@ async function weathergetter() {
 
 }
 async function battgetter() {
+  if (battery.dischargingTime == "Infinity") {
+        return
+      }
   navigator.getBattery().then(function(battery) {
     updateBatteryStatus(battery.level * 100);
     console.log(battery)
     battery.addEventListener('levelchange', function() {
+      console.log("Batt changed")
       updateBatteryStatus(battery.level * 100);
     });
 
     function updateBatteryStatus(level) {
-      if (dischargingTime == "Infinity") {
-        return
-      } else if (level <= "100" && level >= "50") {
+       if (level <= "100" && level >= "50") {
         document.getElementById("battery-status").classList.add("high");
         document.getElementById("battery-status").classList.remove("mid");
         document.getElementById("battery-status").classList.remove("low");
