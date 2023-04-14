@@ -141,6 +141,7 @@ visibility: hidden;
 
 #message {
     background-color: black;
+    border-radius: 10px;
     margin: 0;
     padding: 0;
     color: #CA1D27;
@@ -160,7 +161,7 @@ visibility: hidden;
 
 #next-message,
 #plus-next-message {
-
+    border-radius: 10px;
     background-color: black;
     margin: .5;
     padding: 0;
@@ -195,6 +196,7 @@ visibility: hidden;
 
 #message {
     font-size: 5vh;
+    border-radius: 10px;
 }
 
 #countdown {
