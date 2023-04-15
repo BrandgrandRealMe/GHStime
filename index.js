@@ -79,9 +79,12 @@ async function weathergetter() {
   setInterval(() => { navigator.geolocation.getCurrentPosition((data) => getw(data.coords.latitude, data.coords.longitude)); }, 300000);
 
 }
+
+
 async function battgetter() {
   
   navigator.getBattery().then(function(battery) {
+    
     // if (battery.dischargingTime == "Infinity") {
     //     return
     //   }
@@ -90,7 +93,12 @@ async function battgetter() {
 
     function updateBatteryStatus(level) {
        if (level <= "100" && level >= "50") {
+         if (battery.charging == true) {
+            document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_charging_full</i> " + Math.floor(level) + "%";
+          } else {
          document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.73em;' class='large material-icons'>battery_full</i> " + Math.floor(level) + "%";
+         }
+         
         document.getElementById("battery-status").classList.add("high");
         document.getElementById("battery-status").classList.remove("mid");
         document.getElementById("battery-status").classList.remove("low");
@@ -115,6 +123,9 @@ document.getElementById("battery-status").innerHTML = " <i  style='font-size: 0.
   });
   setInterval(() => {
     navigator.getBattery().then(function(battery) {
+      addEventListener("chargingchange", (event) => { 
+  console.log("event ran")
+  battgetter() })
       updateBatteryStatus(battery.level * 100);
 
       battery.addEventListener('levelchange', function() {
