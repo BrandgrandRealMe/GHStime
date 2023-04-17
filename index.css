@@ -161,7 +161,6 @@ visibility: hidden;
 
 #next-message,
 #plus-next-message {
-    border-radius: 10px;
     background-color: black;
     padding: 0;
     color: silver;
@@ -169,18 +168,20 @@ visibility: hidden;
     font-size: 4vh;
     
 }
-#plus-next-message {
-  border: solid;
-  margin: .5;
-  margin-top: 0;
-  border-top: 0;
-}
 #next-message {
+  border-radius: 10px 10px 0% 0%;
+  border: solid;
+  margin: .5;
+  margin-bottom: 0;
+  border-top: 0;
+}
+#plus-next-message {
+  border-radius: 0% 0% 10px 10px;
   border: solid;
   margin: .5;
   margin-top: 0;
-  border-top: 0;
 }
+
 #cd {
     border-radius: 10px;
     background-color: black;
