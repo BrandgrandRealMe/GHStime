@@ -173,7 +173,7 @@ visibility: hidden;
   border: solid;
   margin: .5;
   margin-bottom: 0;
-  border-bottom: 0;
+  border-bottom: -0.5;
 }
 #plus-next-message {
   border-radius: 0% 0% 10px 10px;
