@@ -215,7 +215,7 @@ visibility: hidden;
     font-weight: 200;
   line-height:5.5vh;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 #battery-status {
   font-weight: 200;
