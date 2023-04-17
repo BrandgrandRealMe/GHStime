@@ -169,12 +169,12 @@ visibility: hidden;
     
 }
 #next-message {
-  border-radius: 10px 10px 5% 5%;
+  border-radius: 10px 10px 5px 5px;
   border: solid;
   margin: .5;
 }
 #plus-next-message {
-  border-radius: 5% 5% 10px 10px;
+  border-radius: 5px 5px 10px 10px;
   border: solid;
   margin: .5;
 }
