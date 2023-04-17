@@ -163,12 +163,23 @@ visibility: hidden;
 #plus-next-message {
     border-radius: 10px;
     background-color: black;
-    margin: .5;
     padding: 0;
     color: silver;
     text-align: center;
     font-size: 4vh;
-    border: solid;
+    
+}
+#plus-next-message {
+  border: solid;
+  margin: .5;
+  margin-top: 0;
+  border-top: 0;
+}
+#next-message {
+  border: solid;
+  margin: .5;
+  margin-top: 0;
+  border-top: 0;
 }
 #cd {
     border-radius: 10px;
@@ -204,6 +215,7 @@ visibility: hidden;
     color: green;
     font-weight: 200;
   line-height:5.5vh;
+  margin-top: .5;
 
 }
 #battery-status {
