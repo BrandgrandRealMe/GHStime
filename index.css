@@ -172,6 +172,7 @@ visibility: hidden;
   border-radius: 10px 10px 5px 5px;
   border: solid;
   margin: .5;
+  margin-top: 0;
 }
 #plus-next-message {
   border-radius: 5px 5px 10px 10px;
