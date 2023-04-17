@@ -1,3 +1,5 @@
 # GHStimeClone
 This is a better version of [ghstime](https://ghstime.com)
-[Your GitHub Pages URL and adding preview to your README.md](/index.html)
+
+![](link-previews/2023-04-17-Vercel.app-The_Better_GHSTime.png) 
+https://ghstime.vercel.app/
