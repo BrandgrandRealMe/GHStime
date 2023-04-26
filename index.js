@@ -12,6 +12,12 @@ function qs(search_for) { // gets quary strings  (www.example.com/?thing=var&thi
 }
 
 function init() { // init the loop
+
+const handleKeyboard = event => {
+  if (event.key === 't') window.open("/themes", "_self")
+}
+document.addEventListener('keyup', handleKeyboard)
+
 // colors
   var r = document.querySelector(':root');
   
