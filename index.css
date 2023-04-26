@@ -180,6 +180,7 @@ visibility: hidden;
   border-radius: 10px 10px 5px 5px;
   border: solid;
   margin: .5;
+  margin-top: 0;
 }
 #plus-next-message {
   border-radius: 5px 5px 10px 10px;
@@ -222,7 +223,6 @@ visibility: hidden;
     font-weight: 200;
   line-height: 5.5vh;
   margin-top: 10px;
-
 }
 #battery-status {
   font-weight: 200;
