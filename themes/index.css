@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*Frame for all buttons*/
+.button-list{
+  list-style: none;
+}
+body {
+  background-color:black;
+  color: white;
+}
+.collection {
+  border-radius: 10px;
+  border-width: 2px;
+}
+#TFrosty {
+  color: #4CDADA; /*Primary*/
+  background-color: #191C1C; /*Background*/
+  border-color: #B0CCCB; /*Secondary*/
+}
+#TDiscord {
+  color: #5865F2; /*Primary*/
+  background-color: #313338; /*Background*/
+  border-color: #dbdee1; /*Secondary*/
+}
+#TNormal {
+  color: red; /*Primary*/
+  background-color: black; /*Background*/
+  border-color: red; /*Secondary*/
+}
+#TDev {
+  color: #264872; /*Primary*/
+  background-color: #1d1a23; /*Background*/
+  border-color: #d5e3fc; /*Secondary*/
+}
+/* Button styling*/
+.button {
+  font-family: 'Raleway';
+  font-size: 2em;
+  
+  cursor: pointer;
+  
+  width:4em;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 20px;
+  
+  background: #000;
+  border: solid #f00 2px;
+  color: #f00;
+  
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  
+  -webkit-box-shadow: -5px 5px 0px #f00;
+  -moz-box-shadow: -5px 5px 0px #f00;
+  box-shadow: -5px 5px 0px #f00;
+  
+   -webkit-transition: width 0.32s ease-in; 
+   transition: width 0.32s ease-in; 
+}
+
+/* hover transition */
+.button:hover {
+  width:6em;
+}
