@@ -1,5 +1,36 @@
 // functions 
+function qs(search_for) { // gets quary strings  (www.example.com/?thing=var&thing2=var2)
+  var query = window.location.search.substring(1);
+  var parms = query.split(/[+&]+/);
+  for (var i = 0; i < parms.length; i++) {
+    var pos = parms[i].indexOf('=');
+    if (pos > 0 && search_for == parms[i].substring(0, pos)) {
+      return parms[i].substring(pos + 1);;
+    }
+  }
+  return "";
+}
+
 function init() { // init the loop
+// colors
+  var r = document.querySelector(':root');
+  
+  let bg = qs("background")
+  if (bg !== null) {
+    r.style.setProperty('--md-sys-color-background', bg);
+  }
+
+  let primary = qs("primary")
+  if (primary !== null) {
+    r.style.setProperty('--md-sys-color-primary', primary);
+  }
+
+  let secondary = qs("secondary")
+  if (secondary !== null) {
+    r.style.setProperty('--md-sys-color-secondary', secondary);
+  }
+
+  
   console.log("Initized")
   var apiKey = atob("ZTcyMjlhOWI3ZDIzZjAxOWE1ODg3ZGEzMTQ4Y2EyOTk=");
   Weather.setApiKey(apiKey);
@@ -51,17 +82,7 @@ function toMonthName(monthNumber) { // self expainatory. Gets month #  and retur
   });
 }
 
-function qs(search_for) { // gets quary strings  (www.example.com/?thing=var&thing2=var2)
-  var query = window.location.search.substring(1);
-  var parms = query.split(/[+&]+/);
-  for (var i = 0; i < parms.length; i++) {
-    var pos = parms[i].indexOf('=');
-    if (pos > 0 && search_for == parms[i].substring(0, pos)) {
-      return parms[i].substring(pos + 1);;
-    }
-  }
-  return "";
-}
+
 
 function format_two_digits(n) { // again self explanitory. makes single # two digits ## Ex(6 -> 06)
   return n < 10 ? "0" + n : n;
