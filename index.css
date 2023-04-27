@@ -215,6 +215,7 @@ visibility: hidden;
 #message {
     font-size: 5vh;
     border-radius: 10px;
+    color: var(--md-sys-color-primary);
 }
 
 #countdown {
@@ -225,6 +226,8 @@ visibility: hidden;
   margin-top: 10px;
 }
 #battery-status {
+  border-radius: 5px;
+  background-color: var(--md-sys-color-primary);
   font-weight: 200;
   font-size: 2vh;
   margin-left: 86vw;
