@@ -228,6 +228,7 @@ visibility: hidden;
 #battery-status {
   border-radius: 5px;
   border-width: 3px;
+  border-style: solid;
   border-color: var(--md-sys-color-secondary);
   padding: 5px;
   line-height: 1.5em;
