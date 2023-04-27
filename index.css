@@ -227,18 +227,13 @@ visibility: hidden;
 }
 #battery-status {
   border-radius: 5px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: var(--md-sys-color-secondary);
-  padding: .5em;
-  text-align: center;
   font-weight: 200;
   font-size: 2vh;
   margin-left: 86vw;
   margin-top: 86vh;
   position: fixed;
   z-index: 99998;
- 
+  height: 1.5em;
 }
 #w {
   color: var(--md-sys-color-secondary);
