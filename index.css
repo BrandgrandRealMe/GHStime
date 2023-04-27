@@ -227,7 +227,8 @@ visibility: hidden;
 }
 #battery-status {
   border-radius: 5px;
-  background-color: var(--md-sys-color-primary);
+  border-width: 3px;
+  border-color: var(--md-sys-color-secondary);
   padding: 5px;
   line-height: 1.5em;
   text-align: center;
