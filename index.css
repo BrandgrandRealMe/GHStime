@@ -228,9 +228,9 @@ visibility: hidden;
 #battery-status {
   border-radius: 5px;
   background-color: var(--md-sys-color-primary);
-  padding: 15px;
+  padding: 5px;
+  line-height: 1.5em;
   text-align: center;
-  vertical-align: middle;
   font-weight: 200;
   font-size: 2vh;
   margin-left: 86vw;
