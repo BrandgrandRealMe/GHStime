@@ -42,6 +42,12 @@ body {
   background-color: #001a00; /*Background*/
   border-color: #6c989f; /*Secondary*/
 }
+#TTBA {
+  cursor: not-allowed;
+  color: gray; /*Primary*/
+  background-color: #001a00; /*Background*/
+  border-color: lightgray; /*Secondary*/
+}
 /* Button styling*/
 .button {
   font-family: 'Raleway';
