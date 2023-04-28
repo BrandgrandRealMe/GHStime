@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dangrek&family=Exo:wght@500;700&family=Gruppo&family=Jura:wght@600&family=K2D&family=Red+Hat+Text:wght@500&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
 :root {
-  --md-sys-color-background: black;
-  --md-sys-color-primary: red;
-  --md-sys-color-secondary: silver;
+  --md-sys-color-background: #000000;
+  --md-sys-color-primary: #ec1c24;
+  --md-sys-color-secondary: #ad8884;
 }
 @-webkit-keyframes moveDown { 0% {top: 0;}
 100%{top:367px; }
