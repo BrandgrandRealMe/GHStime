@@ -37,6 +37,11 @@ body {
   background-color: #1d1a23; /*Background*/
   border-color: #d5e3fc; /*Secondary*/
 }
+#TForest {
+  color: #54b75f; /*Primary*/
+  background-color: #001a00; /*Background*/
+  border-color: #6c989f; /*Secondary*/
+}
 /* Button styling*/
 .button {
   font-family: 'Raleway';
