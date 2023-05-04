@@ -42,6 +42,11 @@ body {
   background-color: #001a00; /*Background*/
   border-color: #6c989f; /*Secondary*/
 }
+#TStarwars {
+color: #ffe81f; /*Primary*/
+background-color: #1d1c16 /*Background*/
+border-color:#cec7a2 /*Secondary*/
+}
 #TTBA {
   cursor: not-allowed;
   color: gray; /*Primary*/
