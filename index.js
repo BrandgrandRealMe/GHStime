@@ -20,7 +20,7 @@ function detectDoubleTapClosure() {
     const curTime = new Date().getTime();
     const tapLen = curTime - lastTap;
     if (tapLen < 500 && tapLen > 0) {
-      modal.style.display = "block";
+     modal.style.display = "block";
       event.preventDefault();
     } else {
       timeout = setTimeout(() => {
@@ -30,7 +30,18 @@ function detectDoubleTapClosure() {
     lastTap = curTime;
   };
 }
+  const modal = document.getElementById("modal");
+const closeBtn = document.getElementsByClassName("close")[0];
 
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 /* Regex test to determine if user is on mobile */
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   document.body.addEventListener('touchend', detectDoubleTapClosure());
