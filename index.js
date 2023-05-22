@@ -12,7 +12,29 @@ function qs(search_for) { // gets quary strings  (www.example.com/?thing=var&thi
 }
 
 function init() { // init the loop
+/* Based on this http://jsfiddle.net/brettwp/J4djY/*/
+function detectDoubleTapClosure() {
+  let lastTap = 0;
+  let timeout;
+  return function detectDoubleTap(event) {
+    const curTime = new Date().getTime();
+    const tapLen = curTime - lastTap;
+    if (tapLen < 500 && tapLen > 0) {
+      window.open("/themes", "_self")
+      event.preventDefault();
+    } else {
+      timeout = setTimeout(() => {
+        clearTimeout(timeout);
+      }, 500);
+    }
+    lastTap = curTime;
+  };
+}
 
+/* Regex test to determine if user is on mobile */
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  document.body.addEventListener('touchend', detectDoubleTapClosure());
+}
 const handleKeyboard = event => {
   if (event.key === 't') window.open("/themes", "_self")
 }
