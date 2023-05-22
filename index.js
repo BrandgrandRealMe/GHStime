@@ -525,7 +525,7 @@ function bellSchedule() { // now we get to the good stuff
       msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
     },];
     let sl = sched.length;
-  } else if (ver == "testing" || ver == "9WT" || skd == "testing" || skd == "9WT" || isToday(new Date('may 22, 2023'))   ) {
+  } else if (ver == "testing" || ver == "9WT" || skd == "testing" || skd == "9WT" || isToday(new Date('may 22, 2023')) && !ver == "testingb"   ) {
     schedTitle = "9Weeks Testing Bell A";
     var schoolACTIVE = true
     // ICONS https://materializecss.com/icons.html
