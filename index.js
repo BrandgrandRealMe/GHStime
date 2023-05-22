@@ -58,6 +58,14 @@ function getw(lat, long) {
     console.log("weather Updated")
   });
 }
+function isToday (date) {  
+  const now = new Date()
+
+    return date.getDate() === now.getDate() &&
+         date.getMonth() === now.getMonth() &&
+         date.getFullYear() === now.getFullYear()
+}
+
 const dateBetween = function(currentDate, firstDate, secondDate) { // returns true if date is in between first and last date
   if (currentDate >= firstDate && currentDate <= secondDate) {
     return true;
@@ -517,7 +525,7 @@ function bellSchedule() { // now we get to the good stuff
       msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
     },];
     let sl = sched.length;
-  } else if (ver == "testing" || ver == "9WT" || skd == "testing" || skd == "9WT") {
+  } else if (ver == "testing" || ver == "9WT" || skd == "testing" || skd == "9WT" || isToday(new Date('may 22, 2023'))   ) {
     schedTitle = "9Weeks Testing Bell";
     var schoolACTIVE = true
     // ICONS https://materializecss.com/icons.html
