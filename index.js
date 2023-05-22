@@ -20,7 +20,7 @@ function detectDoubleTapClosure() {
     const curTime = new Date().getTime();
     const tapLen = curTime - lastTap;
     if (tapLen < 500 && tapLen > 0) {
-      window.open("/themes", "_top")
+      window.location.replace("/themes")
       event.preventDefault();
     } else {
       timeout = setTimeout(() => {
