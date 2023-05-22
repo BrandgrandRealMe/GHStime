@@ -588,13 +588,13 @@ function bellSchedule() { // now we get to the good stuff
       msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:20"
     }, {
       t: 820,
-      msg: "st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   8:20 - 9:45"
+      msg: "3rd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   8:20 - 9:45"
     }, {
       t: 945,
       msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
     }, {
       t: 950,
-      msg: "2nd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   9:50 - 11:15"
+      msg: "4th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   9:50 - 11:15"
     }, {
       t: 1115,
       msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
@@ -618,13 +618,13 @@ function bellSchedule() { // now we get to the good stuff
       msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
     }, {
       t: 1250,
-      msg: "5th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  12:50 - 2:15"
+      msg: "7th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  12:50 - 2:15"
     }, {
       t: 1415,
       msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
     }, {
       t: 1420,
-      msg: "6th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  2:20 - 3:50"
+      msg: "8th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  2:20 - 3:50"
     }, {
       t: 1550,
       msg: "3:50pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
