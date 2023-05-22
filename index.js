@@ -526,7 +526,7 @@ function bellSchedule() { // now we get to the good stuff
     },];
     let sl = sched.length;
   } else if (ver == "testing" || ver == "9WT" || skd == "testing" || skd == "9WT" || isToday(new Date('may 22, 2023'))   ) {
-    schedTitle = "9Weeks Testing Bell";
+    schedTitle = "9Weeks Testing Bell A";
     var schoolACTIVE = true
     // ICONS https://materializecss.com/icons.html
     sched = [{
@@ -535,6 +535,60 @@ function bellSchedule() { // now we get to the good stuff
     }, {
       t: 820,
       msg: "1st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   8:20 - 9:45"
+    }, {
+      t: 945,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 950,
+      msg: "2nd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   9:50 - 11:15"
+    }, {
+      t: 1115,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 1115,
+      msg: "A Lunch <i  style='font-size: 0.73em;' class='large material-icons'>local_dining</i><br /> 11:15 - 11:45"
+    }, {
+      t: 1145,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 1145,
+      msg: "B Lunch <i  style='font-size: 0.73em;' class='large material-icons'>local_dining</i><br /> 11:45 - 12:15"
+    }, {
+      t: 1215,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 1215,
+      msg: "C Lunch <i  style='font-size: 0.73em;' class='large material-icons'>local_dining</i><br /> 12:15 - 12:45"
+    }, {
+      t: 1245,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 1250,
+      msg: "5th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  12:50 - 2:15"
+    }, {
+      t: 1415,
+      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+    }, {
+      t: 1420,
+      msg: "6th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  2:20 - 3:50"
+    }, {
+      t: 1550,
+      msg: "3:50pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
+    }, {
+      t: 2400,
+      msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
+    },];
+    let sl = sched.length;
+  } else if (ver == "testingb" || ver == "9WTb" || skd == "testingb" || skd == "9WTb" || isToday(new Date('may 23, 2023'))   ) {
+    schedTitle = "9Weeks Testing Bell B";
+    var schoolACTIVE = true
+    // ICONS https://materializecss.com/icons.html
+    sched = [{
+      t: 0,
+      msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:20"
+    }, {
+      t: 820,
+      msg: "st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   8:20 - 9:45"
     }, {
       t: 945,
       msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
