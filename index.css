@@ -348,6 +348,13 @@ color: red;
   text-decoration: none;
   cursor: pointer;
   border: solid #292929 2px;
+  
+}
+.modal-content .btn .top {
+   border-radius: 5px 5px 2px 2px;
+}
+.modal-content .btn .bottom {
+  border-radius: 2px 2px 5px 5px;
 }
 #Tdefault { 
   color: #ec1c24;  /*Primary*/
