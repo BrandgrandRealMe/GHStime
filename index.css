@@ -357,8 +357,8 @@ vl {
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
-  background-color: var(--md-sys-color-primary); /*primary*/
-  padding: 10px 20px 10px 20px;
+  background-color: var(--md-sys-color-secondary); /*primary*/
+  margin: 10px 20px 10px 20px;
   width:2px;
 }
 
