@@ -315,6 +315,7 @@ color: red;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  height:60%;
 }
 
 .close {
@@ -338,7 +339,6 @@ color: red;
   color: var(--md-sys-color-secondary); /*secondary*/
   background-color: var(--md-sys-color-background); /*Background*/
   font-size: 20px;
-  margin: 10px 20px 10px 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   cursor: pointer;
