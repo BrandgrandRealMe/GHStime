@@ -311,7 +311,7 @@ color: red;
 }
 .modal-content {
   background-color: var(--md-sys-color-background);
-  margin: 15% auto;
+  margin: auto auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
