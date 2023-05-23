@@ -310,7 +310,8 @@ color: red;
 }
 
 .close {
-  color: #aaa;
+  background-color: var(--md-sys-color-background); 
+  color: var(--md-sys-color-secondary);
   float: right;
   font-size: 28px;
   font-weight: bold;
