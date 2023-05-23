@@ -337,8 +337,6 @@ color: red;
     display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
   border-radius: 5px;
   font-family: Arial;
   color: var(--md-sys-color-secondary); /*secondary*/
