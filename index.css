@@ -335,22 +335,28 @@ color: red;
   -moz-border-radius: 5;
   border-radius: 5px;
   font-family: Arial;
-  color: #ffffff;
+  color: var(--md-sys-color-primary); /*Primary*/
+  background-color: var(--md-sys-color-background); /*Background*/
   font-size: 20px;
-  background: #292929;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   cursor: pointer;
   border: solid #292929 2px;
 }
 #Tdefault { 
-  color: var(--md-sys-color-primary); /*Primary*/
-  background-color: var(--md-sys-color-background); /*Background*/
-  border-color: var(--md-sys-color-secondary); /*Secondary*/
+  color: #ec1c24;  /*Primary*/
+  background-color: #000000; /*Background*/
+  border-color: #ad8884; /*Secondary*/
 }
 #Tdev { 
   color: #3c7add; /*Primary*/
   background-color: #1b1b1d; /*Background*/
   border-color: #bec6dc; /*Secondary*/
 }
-
+vl {
+  border-style: none solid none none;
+  margin: 10px;
+  padding: 10px;
+  right: 77%;
+  position: absolute;
+}
