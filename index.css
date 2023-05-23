@@ -354,9 +354,6 @@ color: red;
   border-color: #bec6dc; /*Secondary*/
 }
 vl {
-  position: absolute;
-  left: 50%; /* Position the line in the center horizontally */
-  top: 5%; /* Adjust the position of the line vertically within the container */
   transform: translateX(-50%); /* Center the line using transform */
   width: 2px; /* Set the width of the line */
   background-color: black; /* Set the color of the line */
