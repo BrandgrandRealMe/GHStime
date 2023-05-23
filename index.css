@@ -356,5 +356,6 @@ color: red;
 vl {
   background-color: var(--md-sys-color-primary);
   width: 2px;
+  height:90%;
   margin: 5px;
 }
