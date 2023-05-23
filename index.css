@@ -354,10 +354,12 @@ color: red;
   border-color: #bec6dc; /*Secondary*/
 }
 vl {
-  transform: translateX(-50%); /* Center the line using transform */
-  width: 2px; /* Set the width of the line */
-  background-color: black; /* Set the color of the line */
-  height: 90%; /* Set the height of the line to 90% of the parent div */
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  background-color: var(--md-sys-color-background); /*Background*/
+  padding: 10px 20px 10px 20px;
+  width:2px;
 }
 
 
