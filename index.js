@@ -31,7 +31,7 @@ function detectDoubleTapClosure() {
   };
 }
   const modal = document.getElementById("modal");
-const closeBtn = document.getElementsById("modal-close")[0];
+const closeBtn = document.getElementsById("modal-close");
 
 closeBtn.onclick = function() {
   modal.style.display = "none";
