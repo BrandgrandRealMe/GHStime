@@ -318,6 +318,9 @@ color: red;
   height: 60%;
   overflow: auto;
   border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .close {
