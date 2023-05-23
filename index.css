@@ -330,7 +330,9 @@ color: red;
  border-radius: 2px 2px 5px 5px;
  margin-top: 5px;
 }
-
+.top {
+  border-radius: 10px 10px 5px 5px;
+}
 .modal-content .btn {
     display: flex;
   justify-content: center;
@@ -360,6 +362,21 @@ color: red;
   color: #3c7add; /*Primary*/
   background-color: #1b1b1d; /*Background*/
   border-color: #bec6dc; /*Secondary*/
+}
+#Tdiscord { 
+  color: #5865F2; /*Primary*/
+  background-color: #313338; /*Background*/
+  border-color: #dbdee1; /*Secondary*/
+}
+#Tfrost { 
+  color: #4CDADA; /*Primary*/
+  background-color: #191C1C; /*Background*/
+  border-color: #B0CCCB; /*Secondary*/
+}
+#Tforest { 
+  color: #54b75f; /*Primary*/
+  background-color: #001a00; /*Background*/
+  border-color: #6c989f; /*Secondary*/
 }
 vl {
   -webkit-border-radius: 5;
