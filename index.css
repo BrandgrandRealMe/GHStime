@@ -340,4 +340,17 @@ color: red;
   background: #292929;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  cursor: pointer;
+  border: solid #f00 2px;
 }
+.btn #Tdefault { 
+  color: var(--md-sys-color-primary); /*Primary*/
+  background-color: var(--md-sys-color-background); /*Background*/
+  border-color: var(--md-sys-color-secondary); /*Secondary*/
+}
+.btn #Tdev { 
+  color: #3c7add; /*Primary*/
+  background-color: #1b1b1d; /*Background*/
+  border-color: #bec6dc; /*Secondary*/
+}
+
