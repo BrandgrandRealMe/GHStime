@@ -20,7 +20,7 @@ function detectDoubleTapClosure() {
     const curTime = new Date().getTime();
     const tapLen = curTime - lastTap;
     if (tapLen < 500 && tapLen > 0) {
-     modal.style.display = "block";
+     modal.style.display = "flex";
       event.preventDefault();
     } else {
       timeout = setTimeout(() => {
@@ -47,7 +47,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   document.body.addEventListener('touchend', detectDoubleTapClosure());
 }
 const handleKeyboard = event => {
-  if (event.key === 't') modal.style.display = "block";
+  if (event.key === 't') modal.style.display = "flex";
 }
 document.addEventListener('keyup', handleKeyboard)
 
