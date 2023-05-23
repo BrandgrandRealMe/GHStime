@@ -333,6 +333,15 @@ color: red;
   text-decoration: none;
   cursor: pointer;
 }
+.modal-content .btn .top {
+  border-radius: 5px 5px 2px 2px;
+  margin-bottom: 5px;
+}
+.modal-content .btn .bottom {
+ border-radius: 2px 2px 5px 5px;
+ margin-top: 5px;
+}
+
 .modal-content .btn {
     display: flex;
   justify-content: center;
@@ -348,18 +357,11 @@ color: red;
   text-decoration: none;
   cursor: pointer;
   border: solid #292929 2px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   
 }
-.modal-content .btn .top {
-   border-radius: 5px 5px 2px 2px;
-   margin-bottom: 2px;
-}
-.modal-content .btn .bottom {
-  border-radius: 2px 2px 5px 5px;
-  margin-top: 2px;
-}
+
 #Tdefault { 
   color: #ec1c24;  /*Primary*/
   background-color: #000000; /*Background*/
