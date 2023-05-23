@@ -359,6 +359,7 @@ vl {
   border-radius: 5px;
   background-color: var(--md-sys-color-secondary); /*primary*/
   margin: 10px 20px 10px 20px;
+  padding:1px 2px 1px 2px;
   width:2px;
 }
 
