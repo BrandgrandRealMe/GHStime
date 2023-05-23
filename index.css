@@ -315,7 +315,9 @@ color: red;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  height:60%;
+  height: 60%;
+  overflow: auto;
+  border-radius: 10px;
 }
 
 .close {
@@ -332,6 +334,9 @@ color: red;
   cursor: pointer;
 }
 .modal-content .btn {
+    display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
