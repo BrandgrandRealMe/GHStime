@@ -355,12 +355,12 @@ color: red;
 }
 vl {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  Height: 90%;
-  transform: translateX(-50%);
+  left: 50%; /* Position the line in the center horizontally */
+  top: 5%; /* Adjust the position of the line vertically within the container */
+  transform: translateX(-50%); /* Center the line using transform */
+  width: 2px; /* Set the width of the line */
+  background-color: black; /* Set the color of the line */
+  height: 90%; /* Set the height of the line to 90% of the parent div */
 }
 
 
