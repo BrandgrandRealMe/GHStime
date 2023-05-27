@@ -290,7 +290,11 @@ function bellSchedule() { // now we get to the good stuff
     start: new Date("Jan 14, 2023 15:50:0").getTime(),
     end: new Date("Jan 14, 2023 0:0:0").getTime(),
     title: "MLK Day"
-  }
+  },{
+    start: new Date("May 25, 2023 15:50:0").getTime(),
+    end: new Date("Aug 14, 2023 08:50:0").getTime(),
+    title: "Summer"
+  }           
   ];
 
 
