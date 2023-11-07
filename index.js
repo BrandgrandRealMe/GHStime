@@ -674,72 +674,60 @@ function bellSchedule() { // now we get to the good stuff
     schedTitle = "Regular Bell";
     var schoolACTIVE = true
     sched = [{
-      t: 0,
-      msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:20"
-    }, {
-      t: 820,
-      msg: "1st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   8:20 - 9:05"
-    }, {
-      t: 905,
-      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 910,
-      msg: "2nd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />   9:10 - 9:55"
-    }, {
-      t: 955,
-      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1000,
-      msg: "3rd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br />  10:00 - 10:45"
-    }, {
-      t: 1045,
-      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1050,
-      msg: "4th Period <i style='font-size: 0.73em;' class='material-icons'>class</i> <br />  10:50 - 11:35"
-    }, {
-      t: 1135,
-      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1140,
-      msg: "A Lunch <i  style='font-size: 0.73em;' class='large material-icons'>local_dining</i> <br /> 11:40 - 12:10"
-    }, {
-      t: 1210,
-      msg: "Transition <i style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1215,
-      msg: "B Lunch <i  style='font-size: 0.73em;' class='material-icons'>local_dining</i><br /> 12:15 - 12:45"
-    }, {
-      t: 1245,
-      msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1250,
-      msg: "C Lunch <i  style='font-size: 0.73em;' class='large material-icons'>local_dining</i><br /> 12:50 - 1:20"
-    }, {
-      t: 1320,
-      msg: "Transition <i style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1325,
-      msg: "6th Period <i style='font-size: 0.73em;' class='large material-icons'>class</i> <br />  1:25 - 2:10"
-    }, {
-      t: 1410,
-      msg: "Transition <i style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1415,
-      msg: "7th Period <i style='font-size: 0.73em;' class='large material-icons'>class</i><br />  2:15 - 3:00"
-    }, {
-      t: 1500,
-      msg: "Transition <i style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
-    }, {
-      t: 1505,
-      msg: "8th Period <i style='font-size: 0.73em;' class='large material-icons'>class</i><br />  3:05 - 3:50"
-    }, {
-      t: 1550,
-      msg: "3:50pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
-    }, {
-      t: 2400,
-      msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
-    }];
+              t: 0,
+              msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:05"
+            },{
+            t: 805,
+            msg: "1st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 08:05 AM-08:52 AM"
+            },{
+            t: 852,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 857,
+            msg: "2nd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 08:57 AM-09:45 AM"
+            },{
+            t: 945,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 950,
+            msg: "3nd Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 09:50 AM-10:36 AM "
+            },{
+            t: 1036,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1041,
+            msg: "4th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 10:41 AM-11:41 AM"
+            },{
+            t: 1141,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1146,
+            msg: "5th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 11:46 AM-12:31 PM"
+            },{
+            t: 1231,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1236,
+            msg: "6th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 12:36 PM-1:31 PM"
+            },{
+            t: 1331,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1336,
+            msg: "7th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 1:36 PM-2:21 PM"
+            },{
+            t: 1421,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1426,
+            msg: "8th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 2:26 PM-3:12 PM"
+            },{
+            t: 1512,
+            msg: "Transition <i  style='font-size: 0.73em;' class='large material-icons'>transfer_within_a_station</i>"
+            },{
+            t: 1517,
+            msg: "9th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 3:17 PM-4:05 PM"
+            }];
     let sl = sched.length;
   }
 
