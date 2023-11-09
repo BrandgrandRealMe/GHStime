@@ -674,8 +674,8 @@ function bellSchedule() { // now we get to the good stuff
     schedTitle = "Regular Bell";
     var schoolACTIVE = true
     sched = [{
-              t: 0,
-              msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:05"
+            t: 0,
+            msg: "Good Morning! <i style='font-size: 0.73em;' class='large material-icons'>free_breakfast</i> <br /> First Period Starts at 8:05"
             },{
             t: 805,
             msg: "1st Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 08:05 AM-08:52 AM"
@@ -727,6 +727,12 @@ function bellSchedule() { // now we get to the good stuff
             },{
             t: 1517,
             msg: "9th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 3:17 PM-4:05 PM"
+            }, {
+            t: 1605,
+            msg: "3:50pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
+            }, {
+            t: 2400,
+            msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
             }];
     let sl = sched.length;
   }
