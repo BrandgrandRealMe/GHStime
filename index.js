@@ -112,8 +112,8 @@ const IsSchoolhours = function(currentTime) { // returns true if time is during 
   startTime.setMinutes(20);
 
   var endTime = new Date(); // 3:50PM
-  endTime.setHours(15);
-  endTime.setMinutes(50);
+  endTime.setHours(16);
+  endTime.setMinutes(05);
   if (currentTime >= startTime && currentTime <= endTime) {
     return true;
   }
