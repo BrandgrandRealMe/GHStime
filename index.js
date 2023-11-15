@@ -729,7 +729,7 @@ function bellSchedule() { // now we get to the good stuff
             msg: "9th Period <i  style='font-size: 0.73em;' class='large material-icons'>class</i><br /> 3:17 PM-4:05 PM"
             }, {
             t: 1605,
-            msg: "3:50pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
+            msg: "4:05pm - Dismissed <i  style='font-size: 0.73em;' class='large material-icons'>exit_to_app</i>"
             }, {
             t: 2400,
             msg: "clock will reset <i  style='font-size: 0.73em;' class='large material-icons'>refresh</i>"
