@@ -109,7 +109,7 @@ const dateBetween = function(currentDate, firstDate, secondDate) { // returns tr
 const IsSchoolhours = function(currentTime) { // returns true if time is during GHS school hours 
   var startTime = new Date(); // 8:20AM
   startTime.setHours(8);
-  startTime.setMinutes(20);
+  startTime.setMinutes(05);
 
   var endTime = new Date(); // 3:50PM
   endTime.setHours(16);
